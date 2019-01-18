@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+    <servlet-name>TestingInitParams</servlet-name>
+    <servlet-class>TestingInitParams</servlet-class>
+
+    <init-param>
+        <param-name>adminEmail</param-name>
+        <param-value>hsharma151197@gmail.com</param-value>
+    </init-param>
+    <init-param>
+        <param-name>mainEmail</param-name>
+        <param-value>himanshu_sharma15@hotmail.com</param-value>
+    </init-param>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>TestingInitParams</servlet-name>
+    <url-pattern>/Tester.do</url-pattern>
+</servlet-mapping>
+</web-app>
